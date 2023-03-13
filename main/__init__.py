@@ -14,7 +14,7 @@ API_HASH = "a92aed7d74654a563af4b07efbcd88e9"
 BOT_TOKEN = "6278815762:AAF6Vkg0hki1ZxxOmAzWbeCsZRPyTXI0Kfc"
 FORCESUB = 1809733770
 ACCESS = int("-1001809733770")
-MONGODB_URI = "mongodb+srv://Zoids:Rextor99 @manage.pyt3xq1.mongodb.net/?retryWrites=true&w=majority"
+MONGODB_URI = "mongodb+srv://RyanMusic:Rextor99@cluster0.pxtgxfl.mongodb.net/?retryWrites=true&w=majority"
 AUTH_USERS = 907544310
 
 bot = TelegramClient('bot', API_ID, API_HASH).start(bot_token=BOT_TOKEN) 
