@@ -11,7 +11,7 @@ from main.plugins.main import Bot
 from main.plugins.helpers import login, logout
 from main.Database.database import Database
 
-st = "Send me __Link__ of any __Public__ channel message to clone it here, For __private__ channel message, First __Login__ then send any __message link__ from your chat.\n\n**SUPPORT:** @RumbleSupport\n**DEV:** @MaheshChauhan"
+st = "Send me __Link__ of any __Public__ channel message to clone it here, For __private__ channel message, First __Login__ then send any __message link__ from your chat.\n\n**SUPPORT:** @nakama_asl\n**DEV:** @azure_id"
 
 ht = """Help:
 
