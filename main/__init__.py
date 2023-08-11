@@ -11,10 +11,10 @@ logging.basicConfig(format='[%(levelname) 5s/%(asctime)s] %(name)s: %(message)s'
 # variables
 API_ID = 9774346
 API_HASH = "a92aed7d74654a563af4b07efbcd88e9"
-BOT_TOKEN = "6278815762:AAF6Vkg0hki1ZxxOmAzWbeCsZRPyTXI0Kfc"
-FORCESUB = 1809733770
-ACCESS = int("-1001509774429")
+BOT_TOKEN = "6382292112:AAHZDf9xgTUEpllpkclidKn_toO02hvYr58"
+FORCESUB = -1001743550303
+ACCESS = int("-1001743550303")
 MONGODB_URI = "mongodb+srv://RyanMusic:Rextor99@cluster0.pxtgxfl.mongodb.net/?retryWrites=true&w=majority"
-AUTH_USERS = 907544310
+AUTH_USERS = 6452204836 5657257558
 
 bot = TelegramClient('bot', API_ID, API_HASH).start(bot_token=BOT_TOKEN) 
