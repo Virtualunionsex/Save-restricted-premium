@@ -9,8 +9,8 @@ logging.basicConfig(format='[%(levelname) 5s/%(asctime)s] %(name)s: %(message)s'
                     level=logging.WARNING)
 
 # variables
-API_ID = 9774346
-API_HASH = "a92aed7d74654a563af4b07efbcd88e9"
+API_ID = 26775038
+API_HASH = "40dc918d6f9bdd391f2fbfb5bbd0328c"
 BOT_TOKEN = "6382292112:AAHZDf9xgTUEpllpkclidKn_toO02hvYr58"
 FORCESUB = -1001743550303
 ACCESS = int("-1001743550303")
