@@ -15,6 +15,6 @@ BOT_TOKEN = "6382292112:AAHZDf9xgTUEpllpkclidKn_toO02hvYr58"
 FORCESUB = -1001743550303
 ACCESS = int("-1001743550303")
 MONGODB_URI = "mongodb+srv://projeklisatiga:Malik10_@cluster0.tgthj.mongodb.net/?retryWrites=true&w=majority"
-AUTH_USERS = 6452204836 5657257558
+AUTH_USERS = 6452204836 
 
 bot = TelegramClient('bot', API_ID, API_HASH).start(bot_token=BOT_TOKEN) 
