@@ -13,7 +13,7 @@ API_ID = 26775038
 API_HASH = "40dc918d6f9bdd391f2fbfb5bbd0328c"
 BOT_TOKEN = "6437856608:AAF1fCRxbkJ06I7wSn19Mhh5-utNG2cB9cw"
 FORCESUB = -1001743550303
-ACCESS = int("-1001743550303")
+ACCESS = int("-1001688331719")
 MONGODB_URI = "mongodb+srv://projeklisatiga:Malik10_@cluster0.tgthj.mongodb.net/?retryWrites=true&w=majority"
 AUTH_USERS = 6452204836 
 
