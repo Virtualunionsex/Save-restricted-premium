@@ -11,7 +11,7 @@ from main.plugins.main import Bot
 from main.plugins.helpers import login, logout
 from main.Database.database import Database
 
-st = "Send me __Link__ of any __Public__ channel message to clone it here, For __private__ channel message, First __Login__ then send any __message link__ from your chat.\n\n**SUPPORT:** @nakama_asl\n**OWNER:** @azure_id"
+st = ""
 
 ht = """Help:
 
@@ -34,12 +34,12 @@ __>> How to Login?__
 async def start(event):
     await event.reply(f'{st}', 
                       buttons=[
-                              [Button.inline("SET THUMB", data="sett"),
-                               Button.inline("REM THUMB", data="remt")],
-                              [Button.inline("LOG IN", data="login"),
-                               Button.inline("LOG OUT", data="logout")],
-                              [Button.inline("HELP", data="help"),
-                               Button.url("OWNER", url="https://t.me/azure_id")],
+                              [Button.inline("", data=""),
+                               Button.inline("", data="")],
+                              [Button.inline("", data=""),
+                               Button.inline("", data="")],
+                              [Button.inline("", data=""),
+                               Button.url("", url="")],
                               ])
     tag = f'[{event.sender.first_name}](tg://user?id={event.sender_id})'
     await event.client.send_message(int(ACCESS), f'{tag} started the BOT\nUserID: {event.sender_id}') 
